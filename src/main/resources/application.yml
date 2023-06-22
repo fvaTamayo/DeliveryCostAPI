@@ -1,0 +1,22 @@
+rule:
+  max:
+    weight: 50
+    height:
+    width:
+    length:
+  range:
+    heavy: 10
+    small: 1500
+    medium: 2500
+    large: 2500
+  multiplier:
+    heavy: 20
+    small: 0.03
+    medium: 0.04
+    large: 0.05
+
+voucher:
+    key: apikey
+    url: https://mynt-exam.mocklab.io
+    action: voucher
+    expiredAllowed: true
